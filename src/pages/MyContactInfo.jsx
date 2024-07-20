@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Contact = () => {
+export default function MyContactInfo () {
     return (
         <div>
             <h2>Contact</h2>
@@ -8,6 +6,4 @@ const Contact = () => {
             <p>Email: Eddie.Hinojosa@proton.me</p>
         </div>
     )
-}
-
-export default Contact;
+};
