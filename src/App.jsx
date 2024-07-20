@@ -1,32 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import './App.css';
+import Header from './components/Header.jsx';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
-function App() {
+function App () {
+    return (
+        <Router>
+        <Header />
+    </Router>
+    );
+};
 
-return (
-  <div className="App">
-    <header className="App-header">
-      <h1>My Portfolio</h1>
-      <p>Welcome to my portfolio</p>
-    </header>
-    <main>
-      <section>
-        <h2>Projects</h2>
-        <ul>
-          {projects.map((project, index) => (
-            <li key={index}>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <a href={project.link}>Link</a>
-            </li>
-          ))}
-        </ul>
-      </section>
-    </main>
-  </div>
-)
-}
-  
-
-export default App
+export default App;
