@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 
 const Header = () => {
     return (
-        //addbackgrounf image to header
+        //add background image to header
 
         <header background-image="" className="bg-gray-800 text-white p-4" >
         <div className="container mx-auto">
