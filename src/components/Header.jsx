@@ -7,9 +7,9 @@ const Header = () => {
         //add background image to header
 
         <header background-image="" className="bg-gray-800 text-white p-4" >
-        <div className="container mx-auto">
-            <h1 classNAme="col-span-1">My Portfolio</h1>
-            <Navigation class="col-span-4"/>
+        <div className="container mx-auto row-auto">
+            <h1 className="col-span-1">My Portfolio</h1>
+            <Navigation class="row-auto"/>
         </div>  
         </header>
     )
